@@ -1,0 +1,31 @@
+{
+  "id": "whitelist",
+  "term": "whitelist",
+  "status": "avoid",
+  "usageNotes": [
+    "Avoid the term 'whitelist' due to problematic connotations.",
+    "Use 'allowlist' instead. Nahmsayin'?"
+  ],
+  "tags": [
+    "deprecated"
+  ],
+  "examples": {
+    "good": [
+      "Add the domain to the allowlist."
+    ],
+    "bad": [
+      "Add the domain to the whitelist."
+    ]
+  },
+  "synonyms": [],
+  "related": [
+    "allowlist"
+  ],
+  "sources": [
+    "https://inclusiveterms.org/"
+  ],
+  "createdAt": "2025-01-01T12:03:22Z",
+  "updatedAt": "2025-01-01T12:03:22Z",
+  "createdBy": "octocat",
+  "updatedBy": "octocat"
+}
