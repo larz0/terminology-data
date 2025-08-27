@@ -1,0 +1,21 @@
+{
+  "collection": "default",
+  "version": 1,
+  "generatedAt": "2025-01-01T12:10:00Z",
+  "terms": [
+    {
+      "id": "inclusive-language",
+      "term": "inclusive language",
+      "status": "preferred",
+      "tags": ["style", "DEI"],
+      "updatedAt": "2025-01-01T12:00:00Z"
+    },
+    {
+      "id": "whitelist",
+      "term": "whitelist",
+      "status": "avoid",
+      "tags": ["deprecated"],
+      "updatedAt": "2025-01-01T12:03:22Z"
+    }
+  ]
+}

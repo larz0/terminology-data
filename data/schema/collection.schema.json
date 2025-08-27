@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schema/collection.schema.json",
+  "title": "TerminologyCollection",
+  "type": "object",
+  "required": ["id", "name", "language"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "language": { "type": "string" },
+    "allowedTags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true,
+      "default": []
+    },
+    "validators": {
+      "type": "object",
+      "properties": {
+        "statusRequired": { "type": "boolean", "default": true },
+        "allowedStatuses": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["preferred", "use_with_caution", "avoid"]
+          },
+          "uniqueItems": true,
+          "default": ["preferred", "use_with_caution", "avoid"]
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
