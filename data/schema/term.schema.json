@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schema/term.schema.json",
+  "title": "TerminologyTerm",
+  "type": "object",
+  "required": ["id", "term", "status", "usageNotes"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Slug, used as filename without .json"
+    },
+    "term": { "type": "string", "minLength": 1 },
+    "status": {
+      "type": "string",
+      "enum": ["preferred", "use_with_caution", "avoid"]
+    },
+    "usageNotes": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        }
+      ],
+      "description": "Markdown strings explaining rationale and how to use"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "default": []
+    },
+    "examples": {
+      "type": "object",
+      "properties": {
+        "good": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": []
+        },
+        "bad": { "type": "array", "items": { "type": "string" }, "default": [] }
+      },
+      "additionalProperties": false
+    },
+    "synonyms": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true,
+      "default": []
+    },
+    "related": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+      "uniqueItems": true,
+      "default": []
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string", "format": "uri" },
+      "default": []
+    },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "createdBy": { "type": "string" },
+    "updatedBy": { "type": "string" },
+    "history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["at", "by", "change"],
+        "properties": {
+          "at": { "type": "string", "format": "date-time" },
+          "by": { "type": "string" },
+          "change": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

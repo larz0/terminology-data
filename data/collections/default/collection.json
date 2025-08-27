@@ -1,0 +1,18 @@
+{
+  "id": "default",
+  "name": "Default collection",
+  "description": "Shared terms for all projects",
+  "language": "en",
+  "allowedTags": [
+    "style",
+    "domain",
+    "DEI",
+    "deprecated",
+    "product",
+    "security"
+  ],
+  "validators": {
+    "statusRequired": true,
+    "allowedStatuses": ["preferred", "use_with_caution", "avoid"]
+  }
+}
