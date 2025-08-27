@@ -6,14 +6,26 @@
     "Use inclusive alternatives to gendered terms.",
     "Avoid idioms that may exclude."
   ],
-  "tags": ["style", "DEI"],
+  "tags": [
+    "style"
+  ],
   "examples": {
-    "good": ["Use 'folks' instead of 'guys'."],
-    "bad": ["Hey guys, ..."]
+    "good": [
+      "Use 'folks' instead of 'guys'."
+    ],
+    "bad": [
+      "Hey guys, ..."
+    ]
   },
-  "synonyms": ["inclusive wording"],
-  "related": ["gender-neutral"],
-  "sources": ["https://styleguide.example.com/inclusive"],
+  "synonyms": [
+    "inclusive wording"
+  ],
+  "related": [
+    "gender-neutral"
+  ],
+  "sources": [
+    "https://styleguide.example.com/inclusive"
+  ],
   "createdAt": "2025-01-01T12:00:00Z",
   "updatedAt": "2025-01-01T12:00:00Z",
   "createdBy": "octocat",
