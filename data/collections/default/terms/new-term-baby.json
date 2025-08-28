@@ -1,0 +1,33 @@
+{
+  "id": "new-term-baby",
+  "term": "New term baby",
+  "status": "preferred",
+  "usageNotes": [
+    "use this man"
+  ],
+  "tags": [
+    "easy",
+    "play"
+  ],
+  "examples": {
+    "good": [
+      "great"
+    ],
+    "bad": [
+      "poop"
+    ]
+  },
+  "synonyms": [
+    "dope"
+  ],
+  "related": [
+    "kek"
+  ],
+  "sources": [
+    "http://google.com"
+  ],
+  "createdAt": "2025-08-28T20:08:45.824Z",
+  "updatedAt": "2025-08-28T20:08:45.824Z",
+  "createdBy": "larz0",
+  "updatedBy": "larz0"
+}
