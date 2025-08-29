@@ -1,9 +1,0 @@
-{
-  "collections": [
-    {
-      "id": "default",
-      "name": "Default collection",
-      "path": "data/collections/default"
-    }
-  ]
-}
