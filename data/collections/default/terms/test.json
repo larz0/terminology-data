@@ -1,0 +1,20 @@
+{
+  "id": "test",
+  "term": "test",
+  "status": "preferred",
+  "usageNotes": [
+    "test"
+  ],
+  "tags": [],
+  "examples": {
+    "good": [],
+    "bad": []
+  },
+  "synonyms": [],
+  "related": [],
+  "sources": [],
+  "createdAt": "2025-08-29T01:17:47.367Z",
+  "updatedAt": "2025-08-29T01:17:47.367Z",
+  "createdBy": "user",
+  "updatedBy": "user"
+}
