@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "collection": "default",
+  "lastModified": "2025-08-29T01:28:48.501Z",
+  "terms": {
+    "1": {
+      "id": "1",
+      "term": "1",
+      "status": "preferred",
+      "usageNotes": [
+        "2"
+      ],
+      "tags": [],
+      "examples": {
+        "good": [
+          "3"
+        ],
+        "bad": [
+          "4"
+        ]
+      },
+      "synonyms": [],
+      "related": [],
+      "sources": [],
+      "createdAt": "2025-08-29T01:28:07.742Z",
+      "updatedAt": "2025-08-29T01:28:07.742Z",
+      "createdBy": "user",
+      "updatedBy": "user"
+    },
+    "3": {
+      "id": "3",
+      "term": "3",
+      "status": "preferred",
+      "usageNotes": [
+        "5"
+      ],
+      "tags": [],
+      "examples": {
+        "good": [
+          "6"
+        ],
+        "bad": [
+          "6"
+        ]
+      },
+      "synonyms": [],
+      "related": [],
+      "sources": [],
+      "createdAt": "2025-08-29T01:28:14.967Z",
+      "updatedAt": "2025-08-29T01:28:14.967Z",
+      "createdBy": "user",
+      "updatedBy": "user"
+    }
+  }
+}
