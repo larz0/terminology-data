@@ -1,7 +1,7 @@
 {
   "version": 2,
   "collection": "default",
-  "lastModified": "2025-08-31T14:43:14.777Z",
+  "lastModified": "2025-08-31T14:49:32.977Z",
   "terms": {
     "test-this-please": {
       "id": "test-this-please",
@@ -10,6 +10,16 @@
       "usageNotes": "yoyoyo",
       "createdAt": "2025-08-31T14:42:57.764Z",
       "updatedAt": "2025-08-31T14:42:57.764Z",
+      "createdBy": "user",
+      "updatedBy": "user"
+    },
+    "test-this-again-dude": {
+      "id": "test-this-again-dude",
+      "term": "test-this-again-dude",
+      "status": "Avoid",
+      "usageNotes": "What's this lol",
+      "createdAt": "2025-08-31T14:49:18.993Z",
+      "updatedAt": "2025-08-31T14:49:18.993Z",
       "createdBy": "user",
       "updatedBy": "user"
     }
