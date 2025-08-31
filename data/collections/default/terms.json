@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "collection": "default",
+  "lastModified": "2025-08-31T14:43:14.777Z",
+  "terms": {
+    "test-this-please": {
+      "id": "test-this-please",
+      "term": "test this please",
+      "status": "Preferred",
+      "usageNotes": "yoyoyo",
+      "createdAt": "2025-08-31T14:42:57.764Z",
+      "updatedAt": "2025-08-31T14:42:57.764Z",
+      "createdBy": "user",
+      "updatedBy": "user"
+    }
+  }
+}
