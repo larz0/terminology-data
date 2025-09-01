@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "collection": "default",
+  "lastModified": "2025-09-01T15:00:41.575Z",
+  "terms": {
+    "delete-this": {
+      "id": "delete-this",
+      "term": "delete-this",
+      "status": "Preferred",
+      "usageNotes": "delete-this",
+      "createdAt": "2025-09-01T15:00:20.726Z",
+      "updatedAt": "2025-09-01T15:00:20.726Z",
+      "createdBy": "larz0",
+      "updatedBy": "larz0"
+    }
+  }
+}
