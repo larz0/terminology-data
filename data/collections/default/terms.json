@@ -1,17 +1,758 @@
-{
-  "version": 2,
-  "collection": "default",
-  "lastModified": "2025-09-01T15:00:41.575Z",
-  "terms": {
-    "delete-this": {
-      "id": "delete-this",
-      "term": "delete-this",
-      "status": "Preferred",
-      "usageNotes": "delete-this",
-      "createdAt": "2025-09-01T15:00:20.726Z",
-      "updatedAt": "2025-09-01T15:00:20.726Z",
-      "createdBy": "larz0",
-      "updatedBy": "larz0"
-    }
+[
+  {
+    "term": "add",
+    "status": "Use with caution",
+    "usage_notes": "In Creative Cloud products, to add is to bring already existing assets into a certain browser or view. In Experience Cloud products, this word is reserved for images.\n\nFor example:\n\n• Add PNG\n\n• Add images, fonts, styles, and more to a library to keep what you need nearby.\n\nAvoid using the word add for the action of inviting people to a document or other shareable resource.",
+    "anchor_id": "add"
+  },
+  {
+    "term": "affordance",
+    "status": "Avoid",
+    "usage_notes": "Internal jargon used as a word to describe a feature or a control. Do not use the word affordance in UI copy, and refer to the action that a component is used for instead.",
+    "anchor_id": "affordance"
+  },
+  {
+    "term": "app",
+    "status": "Preferred",
+    "usage_notes": "App is preferred over application for the sake of brevity, simplicity, and because app is so widely used now to describe both desktop and mobile software applications.",
+    "anchor_id": "app"
+  },
+  {
+    "term": "application",
+    "status": "Use with caution",
+    "usage_notes": "App is preferred over application for the sake of brevity, simplicity, and because app is so widely used now to describe both desktop and mobile software applications.",
+    "anchor_id": "application"
+  },
+  {
+    "term": "asset",
+    "status": "Use with caution",
+    "usage_notes": "Jargon for any file, element, or content that a user needs to complete their goal, as well as the output of completing that goal.\n\nAt Adobe, this includes things such as desktop-synced files, mobile creations, Creative Cloud libraries, images, fonts, colors, gradients, or CSS information.\n\nAsset is a generic word and has multiple meanings which can be conflicting or ambiguous. For example, there are assets that are part of a creative agency workflow, and there are assets to describe a generic grouping of disparate items.\n\nTry to avoid using this word if possible. Instead, be more specific and describe what something is, such as a video or an illustration. If you can’t, proceed with asset.",
+    "anchor_id": "asset"
+  },
+  {
+    "term": "auto / auto-",
+    "status": "Use with caution",
+    "usage_notes": "For feature names and UI labels, use the adjective form (e.g., Auto tag, Auto crop, Auto analyze, Auto save). New names and labels that use auto require the Brand team’s approval.\n\nIn general references, use the combining form (e.g., auto-tag, auto-crop, auto-analyze, auto-save).\n\nWhen describing how UI elements with auto labels work, generally spell out automatic or automatically.",
+    "anchor_id": "auto_/_auto-"
+  },
+  {
+    "term": "available / not available",
+    "status": "Preferred",
+    "usage_notes": "Use not available to describe an app, service, or control that temporarily can’t be accessed or used (e.g., an app is taken down for maintenance).\n\nView also [supported / not supported](#supported / not supported).",
+    "anchor_id": "available_/_not_available"
+  },
+  {
+    "term": "begin",
+    "status": "Preferred",
+    "usage_notes": "Preferred for descriptive text. For a call-to-action, use [start](#start).",
+    "anchor_id": "begin"
+  },
+  {
+    "term": "blacklist",
+    "status": "Avoid",
+    "usage_notes": "This word has roots in racism and oppression. Replace it with this format to provide contextual clarity:\n\n(Action)(object)\n\nFor example:\n\n• Blocked users\n\n• Prohibited IP addresses",
+    "anchor_id": "blacklist"
+  },
+  {
+    "term": "button",
+    "status": "Preferred",
+    "usage_notes": "When referring to a specific button in an interface, try to refer to the action (e.g, undo, edit) rather than naming the button.\n\nIf you need to refer to the interface element directly, capitalize and bold the name of the button but not the word button itself (e.g., Undo button, Edit button).",
+    "anchor_id": "button"
+  },
+  {
+    "term": "click",
+    "status": "Avoid",
+    "usage_notes": "Avoid instructing a user to click or tap. Instead, use a call-to-action and the right design component to imply the interaction. View [select](#select).\n\nWhen you need to refer to the result of clicking on something, use the same words as the call-to-action.",
+    "anchor_id": "click"
+  },
+  {
+    "term": "close",
+    "status": "Preferred",
+    "usage_notes": "Use close as a catchall term for a dismissal action. It can also reference OS-specific patterns.\n\nWhenever possible, use workflow-specific verbs (e.g., publish, export, delete) to reinforce the action being taken, instead of the more generic close, finish, or OK.",
+    "anchor_id": "close"
+  },
+  {
+    "term": "cloud docs",
+    "status": "Avoid",
+    "usage_notes": "Internal-only jargon. View [cloud documents](#cloud documents).\n\nAmended guidance to come on the rare exception to this rule. Abbreviate as cloud docs in English on mobile when called for due to space constraints.",
+    "anchor_id": "cloud_docs"
+  },
+  {
+    "term": "cloud documents",
+    "status": "Preferred",
+    "usage_notes": "Use across Creative Cloud products, experiences, and messaging as a functional name, and not as a branded feature of Creative Cloud.\n\nDo not capitalize cloud documents on its own. For product UI, align to the interface style specific to the design component (e.g., if all caps, use all caps; if title case, use title case).\n\nOnly attribute this to relevant apps such as XD or Photoshop, and never to Creative Cloud. (e.g., XD cloud document, not: Adobe Creative Cloud cloud document).\n\nDo not shorten to cloud docs or documents in product UI, marketing, or messaging. Translate this where other functional names are also translated.\n\nAmended guidance to come on the rare exception to this rule. Abbreviate as cloud docs in English on mobile when called for due to space constraints.",
+    "anchor_id": "cloud_documents"
+  },
+  {
+    "term": "continue / cancel",
+    "status": "Preferred",
+    "usage_notes": "Use continue and cancel as dual actions in workflows where there is only one way to move forward and it’s not possible to skip or go back steps.",
+    "anchor_id": "continue_/_cancel"
+  },
+  {
+    "term": "course",
+    "status": "Use with caution",
+    "usage_notes": "Use sparingly to describe a sequential arrangement of multiple tutorials that form a cohesive learning experience. Use words like [tutorial](#tutorial), tutorials, or tutorial series instead.",
+    "anchor_id": "course"
+  },
+  {
+    "term": "create",
+    "status": "Use with caution",
+    "usage_notes": "Create should only be used descriptively (e.g., Use everyday language to create extraordinary results with generative AI).\n\nDo not use create as a UI action in the context of generative AI technology, where content is generated rather than created.",
+    "anchor_id": "create"
+  },
+  {
+    "term": "current version / previous version",
+    "status": "Avoid",
+    "usage_notes": "When referring to apps, latest version / older version is preferred.",
+    "anchor_id": "current_version_/_previous_version"
+  },
+  {
+    "term": "dismiss",
+    "status": "Avoid",
+    "usage_notes": "Avoid using dismiss as an action to signify acknowledgement or completion. Use [OK](#OK) instead.\n\nThis word can be acceptable in rare cases of when the action being taken is a “hard dismiss,” or the equivalent of a user communicating that they do not want to be shown something ever again. If possible, show an icon-only close affordance (typically, a cross icon) if appropriate to the component, to indicate dismissal.",
+    "anchor_id": "dismiss"
+  },
+  {
+    "term": "document",
+    "status": "Preferred",
+    "usage_notes": "Documents is commonly used in Document Cloud to refer to files in general, of any file format.\n\nIn Creative Cloud, use the word file for a local document, to better distinguish from [cloud documents](#cloud documents). While all cloud documents are files, not all files are cloud documents. Similarly, all documents are files, but not all documents are cloud documents.",
+    "anchor_id": "document"
+  },
+  {
+    "term": "done",
+    "status": "Use with caution",
+    "usage_notes": "[Close](#close) and [finish](#finish) are preferred over done for a dismissal call to action. In general, stick to verbs (like close) over adjectives (like done) to label actions — verbs more clearly reflect whatever action the user is taking.\n\nUse done as an acknowledgment or call to action for a standalone button in a modal, dialog, or overlay when it wouldn’t make sense for the context to use finish, close, or OK. Done conveys finality, allowing users to signal that they no longer want to interact with a given element.",
+    "anchor_id": "done"
+  },
+  {
+    "term": "download",
+    "status": "Preferred",
+    "usage_notes": "When writing instructional copy, word choice should mirror that of the OS. Otherwise, use download only when referring to the transfer of assets or files from a server onto a device.\n\nWhen guiding users through an installation or [update](#update) flow, be explicit about the different steps they will take.\n\nView also [install](#install).",
+    "anchor_id": "download"
+  },
+  {
+    "term": "drag and drop",
+    "status": "Use with caution",
+    "usage_notes": "Instructions for interactions should use the same words that the OS does.",
+    "anchor_id": "drag_and_drop"
+  },
+  {
+    "term": "edit in",
+    "status": "Avoid",
+    "usage_notes": "See [open in](#open in).",
+    "anchor_id": "edit_in"
+  },
+  {
+    "term": "embed",
+    "status": "Preferred",
+    "usage_notes": "[Placing](#place) an embedded file means that it is no longer connected to the original source file. This saves a static copy of the file’s content into the destination file.\n\nFor example:\n\n• Embed a PDF as an image layer in Fresco\n\n• Place an image as an embedded object to save a copy right here in your Photoshop file.\n\n• Place as embedded",
+    "anchor_id": "embed"
+  },
+  {
+    "term": "enable / disable",
+    "status": "Avoid",
+    "usage_notes": "These terms are needlessly technical to convey the more straightforward on / off. Use [turn on / turn off](#turn on / turn off) to refer to the actions of activating and deactivating a capability or mode.",
+    "anchor_id": "enable_/_disable"
+  },
+  {
+    "term": "entitlement",
+    "status": "Use with caution",
+    "usage_notes": "Internal-only jargon, along with entitlement-aware, to describe access to a particular app or program.",
+    "anchor_id": "entitlement"
+  },
+  {
+    "term": "export",
+    "status": "Preferred",
+    "usage_notes": "Use export when a file will be saved in a different format than it was created in. If the file will be opened as-is in a different app than it was created in, use open in.",
+    "anchor_id": "export"
+  },
+  {
+    "term": "fail, failure",
+    "status": "Use with caution",
+    "usage_notes": "Fail and failure are vague technical terms with a strong negative connotation. Avoid using these words in error messaging when you can be specific about what the problem was.\n\nView also [success, successful, successfully](#success, successful, successfully).",
+    "anchor_id": "fail,_failure"
+  },
+  {
+    "term": "feature",
+    "status": "Use with caution",
+    "usage_notes": "A single, outcome-oriented functionality of a product or service. Determining if something is a feature happens through a partnership between product, marketing, and branding. This word should not be used to mean “everything in a product.”",
+    "anchor_id": "feature"
+  },
+  {
+    "term": "file name",
+    "status": "Preferred",
+    "usage_notes": "Two words. Use instead of one word, filename, in user-facing content. A filename is the technical name that a file system creates (and includes the file type extension). The file name is the name for the file that a user creates.",
+    "anchor_id": "file_name"
+  },
+  {
+    "term": "file type",
+    "status": "Preferred",
+    "usage_notes": "Two words. Use instead of one word, filetype, to refer to file formats such as PNG, JPEG, PDF, PSD, AI, PSDC, etc.\n\nDo not abbreviate file types unless there is a character constraint. View [JPEG](#JPEG).",
+    "anchor_id": "file_type"
+  },
+  {
+    "term": "finish",
+    "status": "Preferred",
+    "usage_notes": "Use finish in headlines, body copy, or metadata to describe the completion of a user-invoked process or flow.\n\nFinish can be used for the last step of interactive learning experiences. Use it strategically in user-driven experiences, not for things that launch automatically.",
+    "anchor_id": "finish"
+  },
+  {
+    "term": "free",
+    "status": "Use with caution",
+    "usage_notes": "When using free to describe to an Adobe offering, the offering and all of its features must:\n\n• cost nothing\n\n• not require a credit card or subscription for download or use\n\nUse [free trial](#free trial) to refer to both trials that require payment information and trials that do not.\n\nView also [freemium](#freemium).",
+    "anchor_id": "free"
+  },
+  {
+    "term": "free trial",
+    "status": "Preferred",
+    "usage_notes": "Free trial is the legally required term for trials with payment, which require a credit card to start the free trial and then automatically convert to a paid subscription after the trial period is over. It is also the preferred way of referring to trials without payment.\n\nIn the initial call to action for trials with payment, it is required to use one of the following:\n\n• Start free trial\n\n• Free trial\n\n• Start free trial to subscribe\n\n• Agree and start free trial",
+    "anchor_id": "free_trial"
+  },
+  {
+    "term": "freemium",
+    "status": "Avoid",
+    "usage_notes": "Do not use the word freemium in UI copy. A freemium app is internal jargon for an app that is free to use but requires a credit card payment if the user wants to access its premium features.\n\nIn the initial call to action for a freemium app, use one of the following:\n\n• Start for free\n\n• Download for free\n\n• Start now\n\n• Download\n\n• Get started\n\nFor actions within a freemium app that do not require a credit card payment or subscription, use “free to try” or “free to edit.”",
+    "anchor_id": "freemium"
+  },
+  {
+    "term": "generate",
+    "status": "Required",
+    "usage_notes": "Use generate as a UI action in the context of generative AI technology across the Adobe product ecosystem, where content is generated rather than created.\n\nGenerate is the initial action as well as the action any time an existing prompt is modified or changed in some way. It is also used where variations are replaced/destructive (formerly refresh).",
+    "anchor_id": "generate"
+  },
+  {
+    "term": "got it",
+    "status": "Avoid",
+    "usage_notes": "Got it is overly colloquial. Use [OK](#OK) instead.",
+    "anchor_id": "got_it"
+  },
+  {
+    "term": "import",
+    "status": "Use with caution",
+    "usage_notes": "In most Creative Cloud products, this word means to convert a file to a different format to open it in an application.\n\nFor Adobe’s video products, import has a broader definition, encompassing add and place. This is because people using these products collect files of different formats into a single view, and then those are converted or “ingested” as links to improve machine performance.\n\nFor example:\n\n• Learn more about the supported file formats you can import in Premiere Pro.\n\n• Go to File > Import to open a Sketch file in XD.\n\nIn Experience Cloud products, import can refer to adding data sources to a view. View [add](#add).",
+    "anchor_id": "import"
+  },
+  {
+    "term": "in the cloud",
+    "status": "Preferred",
+    "usage_notes": "Use in the cloud (not on the cloud) to describe a process that is part of the cloud or deployed using cloud software, like cloud storage and cloud rendering. Do not use with the cloud except in phrasing like “software with cloud services.”\n\nView also [to / from the cloud](#to / from the cloud).",
+    "anchor_id": "in_the_cloud"
+  },
+  {
+    "term": "install",
+    "status": "Preferred",
+    "usage_notes": "When writing instructional copy, word choice should mirror that of the OS. Otherwise, use install (verb) or installation (noun) to describe the process of adding and making software usable on a device.\n\nWhen guiding users through an installation or [update](#update) flow, be explicit about the different steps involved. For example, don’t use an Install call to action if the user will be redirected to a store or website.\n\nView also [download](#download).",
+    "anchor_id": "install"
+  },
+  {
+    "term": "JPEG",
+    "status": "Preferred",
+    "usage_notes": "Use the full form JPEG, not JPG.",
+    "anchor_id": "JPEG"
+  },
+  {
+    "term": "latest version / older version",
+    "status": "Preferred",
+    "usage_notes": "Preferred over current version / previous version when referring to apps.",
+    "anchor_id": "latest_version_/_older_version"
+  },
+  {
+    "term": "launch",
+    "status": "Avoid",
+    "usage_notes": "When referring to apps or services or an aspect thereof (e.g., a new window), open is the preferred action.",
+    "anchor_id": "launch"
+  },
+  {
+    "term": "lesson",
+    "status": "Avoid",
+    "usage_notes": "The Learn team does not use this term at all. Avoid in UI content.",
+    "anchor_id": "lesson"
+  },
+  {
+    "term": "link",
+    "status": "Preferred",
+    "usage_notes": "[Placing](#place) a linked file turns it into a reference to the original source file. Changes made to the placed content in the destination file or to the original source file will be reflected and updated automatically in both locations.\n\nFor example:\n\n• Go to File > Place > Linked object to make changes to the Photoshop file from here.\n\n• Place a linked PDF if you want it to be updated automatically when you edit the PDF.",
+    "anchor_id": "link"
+  },
+  {
+    "term": "load",
+    "status": "Use with caution",
+    "usage_notes": "Preferred for messages like Loading…, Loading {appName}…, Can’t load page, or similar.\n\nUse open as an action in reference to an app or service or an aspect thereof (e.g., Open {appName}, Open a new window).",
+    "anchor_id": "load"
+  },
+  {
+    "term": "lock / unlock",
+    "status": "Preferred",
+    "usage_notes": "To lock something is to freeze it at the current moment in time and prevent changes to its contents. When something is locked, objects associated with it can’t be selected or altered. To unlock something allows a user to select and edit it.\n\nThese actions are usually represented in the interface via an open or closed padlock icon.",
+    "anchor_id": "lock_/_unlock"
+  },
+  {
+    "term": "long press",
+    "status": "Use with caution",
+    "usage_notes": "Instructions for interactions should use the same words that the OS does.",
+    "anchor_id": "long_press"
+  },
+  {
+    "term": "master",
+    "status": "Avoid",
+    "usage_notes": "Master is an established software term that has roots in bigotry and oppression. Do not use master descriptors to mean primary, main, or source (e.g., main track or source graphic).\n\nDo not use master to describe hierarchy, (e.g., master and slave servers). Instead, describe hierarchical relationships as primary, secondary, tertiary, etc.",
+    "anchor_id": "master"
+  },
+  {
+    "term": "More menu",
+    "status": "Preferred",
+    "usage_notes": "In interface language, try not to directly refer to the ellipsis (“…”) contextual menu that provides more options. If you need to refer to it directly, call it the More menu.\n\nBold the word More and capitalize it; menu is lowercase, not bolded.",
+    "anchor_id": "More_menu"
+  },
+  {
+    "term": "name",
+    "status": "Preferred",
+    "usage_notes": "Another word for file. Do not use [title](#title) to mean name.",
+    "anchor_id": "name"
+  },
+  {
+    "term": "next / back",
+    "status": "Preferred",
+    "usage_notes": "Use next and back in workflows (e.g., tours, tasks) where someone would be going back and forth in the flow.",
+    "anchor_id": "next_/_back"
+  },
+  {
+    "term": "next / previous",
+    "status": "Preferred",
+    "usage_notes": "Use next and previous for pagination (e.g., pages of search results).",
+    "anchor_id": "next_/_previous"
+  },
+  {
+    "term": "OK",
+    "status": "Preferred",
+    "usage_notes": "Use OK as a primary action for acknowledgement if taking that action will not impact a user in a negative way. Style in all-caps no matter the interface element, not as Ok, ok, Okay, or okay. Avoid using [dismiss](#dismiss) as an action.\n\nBe mindful of using OK as an action in flows that involve a user agreeing to options that require payment, or for giving consent. Instead, use more specific verbs and explicitly communicate what someone is acknowledging or agreeing to.",
+    "anchor_id": "OK"
+  },
+  {
+    "term": "on the cloud",
+    "status": "Avoid",
+    "usage_notes": "View [in the cloud](#in the cloud) and [to / from the cloud](#to / from the cloud).",
+    "anchor_id": "on_the_cloud"
+  },
+  {
+    "term": "open",
+    "status": "Preferred",
+    "usage_notes": "Use open as an action in reference to file, app, service, or an aspect thereof (e.g., Open a new window).",
+    "anchor_id": "open"
+  },
+  {
+    "term": "open in",
+    "status": "Preferred",
+    "usage_notes": "Open in is preferred over edit in, view in, comment in or similar because it is secondary action-agnostic and doesn’t guess at what the user might want to do (e.g., edit, view, review, comment).\n\nSecondary actions can be referenced in supporting copy if necessary for a particular flow or context (e.g., “This file is view only on web. To make edits or leave comments, open it in the desktop app”).\n\nIf the app context is clear (e.g., the user is in Photoshop web and wants to open something on Photoshop desktop), it’s preferred to say, Open in {surface} app (e.g., “Open in desktop app”) for the call to action.\n\nIf the app context will change (e.g., the user is in Photoshop web and wants to open something on Illustrator desktop), it’s preferred to say, Open in {appName} {surface} and drop app (e.g., “Open in Illustrator desktop”) for the call to action.",
+    "anchor_id": "open_in"
+  },
+  {
+    "term": "OS",
+    "status": "Preferred",
+    "usage_notes": "Abbreviation of operating system. It's also acceptable to spell out the full term, if needed for extra clarity.",
+    "anchor_id": "OS"
+  },
+  {
+    "term": "panel",
+    "status": "Use with caution",
+    "usage_notes": "Avoid referring to the names of interface elements in UI content unless absolutely necessary; describe the action, rather than the interaction.\n\nYou can describe something as a panel if it’s a centralized collection of multiple tools, options, or other controls that has a fixed placement and could be collapsible as a navigational element (as opposed to being a temporary view).",
+    "anchor_id": "panel"
+  },
+  {
+    "term": "pinch",
+    "status": "Use with caution",
+    "usage_notes": "Instructions for interactions should use the same words that the OS does.",
+    "anchor_id": "pinch"
+  },
+  {
+    "term": "place",
+    "status": "Preferred",
+    "usage_notes": "Placing brings content (e.g., images, other files) from an original source into a destination file.\n\nFor example:\n\n• You can place an Illustrator file into your XD layout.\n\n• One way to bring an image into your Photoshop file is to go to File > Place.\n\nThings can be placed as [linked](#link) or [embedded](#embed) files.",
+    "anchor_id": "place"
+  },
+  {
+    "term": "platform",
+    "status": "Use with caution",
+    "usage_notes": "A platform is a technology or group of technologies that are used as a base upon which other applications, processes, technologies, or even other platforms are developed. This word is used to communicate the concept of a centralized, foundational infrastructure (as opposed to a system, which is a grouping of things that work together in the same place).\n\nUsage of this word is extremely dependent on context. It can describe where something appears, where something is stored, or a product itself:\n\n• A tech framework (e.g., UXP)\n\n• Hardware and devices (e.g., mobile, tablet, desktop)\n\n• Operating systems (e.g., Android, iOS)\n\n• Adobe products (e.g., Adobe Experience Platform)",
+    "anchor_id": "platform"
+  },
+  {
+    "term": "playlist",
+    "status": "Use with caution",
+    "usage_notes": "Use [series](#series) to refer to a list of tutorials in a sequence (e.g., “Select the second tutorial in the series”).",
+    "anchor_id": "playlist"
+  },
+  {
+    "term": "please",
+    "status": "Preferred",
+    "usage_notes": "Use in an instructional way, and in error messages when asking a user to do an action that requires significant effort or time (e.g., Please provide feedback, Please reload the page).",
+    "anchor_id": "please"
+  },
+  {
+    "term": "plugin",
+    "status": "Preferred",
+    "usage_notes": "One word, with no hyphen (not: plug-in).",
+    "anchor_id": "plugin"
+  },
+  {
+    "term": "preferences",
+    "status": "Use with caution",
+    "usage_notes": "For both web and mobile apps, treat preferences as a subset of settings and in menu names, call out the type of settings (e.g., Preferences may be found under App settings or Account settings).\n\nA user can customize, choose, or select preferences for various things within a settings menu rather than setting their preferences.",
+    "anchor_id": "preferences"
+  },
+  {
+    "term": "press",
+    "status": "Use with caution",
+    "usage_notes": "Instructions for interactions should use the same words that the OS does.",
+    "anchor_id": "press"
+  },
+  {
+    "term": "product",
+    "status": "Use with caution",
+    "usage_notes": "Internal-only jargon. Use sparingly to describe a self-contained experience that provides a user with a specific benefit (e.g., Creative Cloud is a collection of products).\n\nTo those outside of Adobe, a product is often thought of as a name-branded thing that is a countable unit of sale that may be downloaded to a device (e.g., one Adobe Photoshop subscription). Use the word [app](#app) to describe this concept.",
+    "anchor_id": "product"
+  },
+  {
+    "term": "program",
+    "status": "Avoid",
+    "usage_notes": "Use [app](#app) instead.",
+    "anchor_id": "program"
+  },
+  {
+    "term": "quit",
+    "status": "Avoid",
+    "usage_notes": "Avoid this word especially as a call-to-action because it is platform-specific. While you can quit on MacOS, you can exit or close on Windows.\n\nQuit can be used generally as a reference to this action on MacOS.",
+    "anchor_id": "quit"
+  },
+  {
+    "term": "rail",
+    "status": "Avoid",
+    "usage_notes": "Internal-only jargon used to describe the UI element that spans the top or the bottom of a screen.\n\nTo make accessible products, this word should not be used in UI content. Instead, be more directive. If you need to refer to this design element in your product, try to write around describing its appearance and instead talk about its function. For example, talk about the actions or the feature names inside the rail, rather than the rail itself.",
+    "anchor_id": "rail"
+  },
+  {
+    "term": "recalled",
+    "status": "Avoid",
+    "usage_notes": "Whenever possible, use generic language such as not supported or not available to describe an app or service that can’t be used.\n\nWords like revoked, recalled, or rescinded have negative connotations, often making users feel like they’re being scolded or fearful of losing work. Instead of getting into the reason for an error, guide users to a resolution.\n\nView also the Spectrum [Writing for errors](/page/writing-for-errors/#Be-empathetic-to-users,-not-the-system) page.",
+    "anchor_id": "recalled"
+  },
+  {
+    "term": "recommend, recommendation",
+    "status": "Preferred",
+    "usage_notes": "Use recommend (verb) and recommendation (noun) for when a human is doing the action (e.g., “We recommend backing up your work before sharing”).\n\nTo suggest or make a suggestion is the preferred way to describe when AI or other technology is doing the action.",
+    "anchor_id": "recommend,_recommendation"
+  },
+  {
+    "term": "redline",
+    "status": "Avoid",
+    "usage_notes": "Redline is a common design term that has roots in racism and oppression. To refer to the details, parameters, or attributes of a design that are communicated to engineers for implementation, use specifications or specs instead.",
+    "anchor_id": "redline"
+  },
+  {
+    "term": "refresh",
+    "status": "Preferred",
+    "usage_notes": "Use refresh as the action to view page or screen updates, or to fix issues (e.g., “Refresh this page and contact support if the issue persists”).",
+    "anchor_id": "refresh"
+  },
+  {
+    "term": "relaunch",
+    "status": "Avoid",
+    "usage_notes": "Restart is the preferred action for any hardware, process, app, or service, regardless of desktop, mobile, or web surface context.",
+    "anchor_id": "relaunch"
+  },
+  {
+    "term": "reload",
+    "status": "Use with caution",
+    "usage_notes": "There may be a technical reason why we’d want to use reload, but for most use cases we can say things like Refresh this page, Restart the app, and so on.",
+    "anchor_id": "reload"
+  },
+  {
+    "term": "rescinded",
+    "status": "Avoid",
+    "usage_notes": "Whenever possible, use generic language such as not supported or not available to describe an app or service that can’t be used.\n\nWords like revoked, recalled, or rescinded have negative connotations, often making users feel like they’re being scolded or fearful of losing work. Instead of getting into the reason for an error, guide users to a resolution.\n\nView also the Spectrum [Writing for errors](/page/writing-for-errors/#Be-empathetic-to-users,-not-the-system) page.",
+    "anchor_id": "rescinded"
+  },
+  {
+    "term": "restart",
+    "status": "Preferred",
+    "usage_notes": "Use restart as an action in reference to an app, service, device, process, or workflow.",
+    "anchor_id": "restart"
+  },
+  {
+    "term": "revoked",
+    "status": "Avoid",
+    "usage_notes": "Whenever possible, use generic language such as not supported or not available to describe an app or service that can’t be used.\n\nWords like revoked, recalled, or rescinded have negative connotations, often making users feel like they’re being scolded or fearful of losing work. Instead of getting into the reason for an error, guide users to a resolution.\n\nView also the Spectrum [Writing for errors](/page/writing-for-errors/#Be-empathetic-to-users,-not-the-system) page.",
+    "anchor_id": "revoked"
+  },
+  {
+    "term": "run",
+    "status": "Use with caution",
+    "usage_notes": "Use run to describe scenarios where a machine or system is the actor rather than the user (e.g., run a report, run a script, or run a simulation).",
+    "anchor_id": "run"
+  },
+  {
+    "term": "scroll",
+    "status": "Use with caution",
+    "usage_notes": "Instructions for interactions should use the same words that the OS does.",
+    "anchor_id": "scroll"
+  },
+  {
+    "term": "see",
+    "status": "Avoid",
+    "usage_notes": "In order to be more inclusive, avoid using the word see. Use the word [view](#view) instead. For example, instead of See all results, say View all results.",
+    "anchor_id": "see"
+  },
+  {
+    "term": "select",
+    "status": "Preferred",
+    "usage_notes": "Select is the preferred gestural word over click or tap for several reasons:\n\n• It’s device-agnostic, meaning that it’s not necessary to write a new string for different devices.\n\n• It’s more inclusive because many people using assistive technology aren’t clicking or tapping to take an action.\n\n• It guards against future design changes and surface migrations. For example, if a UI element stops being clickable and instead uses a slider, the word select would still work for both cases.",
+    "anchor_id": "select"
+  },
+  {
+    "term": "send to",
+    "status": "Avoid",
+    "usage_notes": "Use open a copy or open a copy in instead. View also [open in](#open in).",
+    "anchor_id": "send_to"
+  },
+  {
+    "term": "series",
+    "status": "Preferred",
+    "usage_notes": "Series refers to a list of tutorial videos. Use sparingly, such as a tutorial series or series of tutorials. Preferred over playlist.",
+    "anchor_id": "series"
+  },
+  {
+    "term": "service",
+    "status": "Preferred",
+    "usage_notes": "Describes content, components, data, and/or dynamic features. At Adobe, this word is used contextually across many things (e.g., plugins, cloud storage, search, help) to describe “something that Adobe offers.”\n\nA service may be something that is contained to a single product or experience, or something that is available across multiple offerings. It’s often designed for a use case that relies on the functionality of a [platform](#platform).",
+    "anchor_id": "service"
+  },
+  {
+    "term": "settings",
+    "status": "Preferred",
+    "usage_notes": "In menu names, describe the type of settings (e.g., App settings, Account settings). See also preferences.",
+    "anchor_id": "settings"
+  },
+  {
+    "term": "skip",
+    "status": "Preferred",
+    "usage_notes": "OK to use as a call-to-action in stepped flows, such as a [coach mark](/page/coach-mark/) series.",
+    "anchor_id": "skip"
+  },
+  {
+    "term": "software",
+    "status": "Use with caution",
+    "usage_notes": "Programs and other services that are used by a device. Only use software when the words app, service, or product are not sufficient for the use case.",
+    "anchor_id": "software"
+  },
+  {
+    "term": "solution",
+    "status": "Use with caution",
+    "usage_notes": "Jargon. Solution is often used interchangeably with app or product, and can describe something that integrates into a larger whole. It’s often used to talk about something descriptively in terms of its use case (instead of its product or feature name) as a way to achieve a goal or complete an intent.\n\nHowever, people may feel excluded by this word; if something is described as a solution and it doesn’t work for someone, they could feel that they themselves are the “problem.” Instead of using the noun solution, frame the message using active verb phrases such as solve, help solve, try to solve, or helps (someone) do (something).",
+    "anchor_id": "solution"
+  },
+  {
+    "term": "sorry",
+    "status": "Use with caution",
+    "usage_notes": "Only use the word sorry in error messaging scenarios where the error causes a major interruption and inconvenience for a user (e.g., needing to restart their device, if work they had saved was lost).",
+    "anchor_id": "sorry"
+  },
+  {
+    "term": "space",
+    "status": "Preferred",
+    "usage_notes": "The amount of room available. Space refers to this concept on a local machine or device (e.g., “You don’t have enough space on your computer to save this file”).\n\nStorage is the word for this in the cloud (e.g., “Your Creative Cloud storage is full”).",
+    "anchor_id": "space"
+  },
+  {
+    "term": "start",
+    "status": "Preferred",
+    "usage_notes": "Preferred over begin for calls-to-action. Variations on this call-to-action using the word start are also acceptable (e.g., Start tour).",
+    "anchor_id": "start"
+  },
+  {
+    "term": "start",
+    "status": "Preferred",
+    "usage_notes": "Use start as an action in reference to a device, process, or workflow.",
+    "anchor_id": "start"
+  },
+  {
+    "term": "storage",
+    "status": "Preferred",
+    "usage_notes": "The amount of room available. Storage refers to this concept in the cloud (e.g., Your Creative Cloud storage is full).\n\nSpace is the word for this on a local machine or device. (e.g., You don’t have enough space on your computer to save this file).",
+    "anchor_id": "storage"
+  },
+  {
+    "term": "stuff",
+    "status": "Avoid",
+    "usage_notes": "This word is a U.S.-centric colloquialism used to describe things without specificity, and is difficult to accurately localize. Do not use the word stuff in UI copy, and refer to items directly instead (e.g., files, not your stuff).",
+    "anchor_id": "stuff"
+  },
+  {
+    "term": "submit",
+    "status": "Preferred",
+    "usage_notes": "Submit is the preferred word for the action of sending data in a form.\n\nWhen asking users to share feedback, use Submit as the call-to-action, not Share.",
+    "anchor_id": "submit"
+  },
+  {
+    "term": "success, successful, successfully",
+    "status": "Avoid",
+    "usage_notes": "Adding success, successful, or successfully to a message is usually redundant and unnecessary. For example, say “Your password was reset” instead of “Your password has been reset successfully.”",
+    "anchor_id": "success,_successful,_successfully"
+  },
+  {
+    "term": "suggest, suggestion",
+    "status": "Preferred",
+    "usage_notes": "Use suggest (verb) or suggestion (noun) for when AI or other technology — not a human — is doing the action.\n\nTo recommend or make a recommendation is the preferred way to describe when a human is doing the action.",
+    "anchor_id": "suggest,_suggestion"
+  },
+  {
+    "term": "supported / not supported",
+    "status": "Preferred",
+    "usage_notes": "Use not supported or no longer supported as a catch-all descriptor for an app or service that permanently can’t be accessed or used (e.g., an outdated or unauthorized app version).\n\nView also [available / unavailable](/page/in-product-word-list/#available%20/%20not%20available).",
+    "anchor_id": "supported_/_not_supported"
+  },
+  {
+    "term": "surface",
+    "status": "Avoid",
+    "usage_notes": "Internal-only term for a consumer-facing framework that delivers content or services to a user. A product may have multiple surfaces (e.g., Adobe.com, Creative Cloud desktop, mobile, and web).",
+    "anchor_id": "surface"
+  },
+  {
+    "term": "swipe",
+    "status": "Avoid",
+    "usage_notes": "Instructions for interactions should use the same words that the OS does. Reserving swipe actions for intuitive actions in-line with the mobile OS should make it unnecessary to use this word in UI copy.",
+    "anchor_id": "swipe"
+  },
+  {
+    "term": "switch on / switch off",
+    "status": "Use with caution",
+    "usage_notes": "[Turn on / turn off](#turn on / turn off) is preferred over switch on / switch off because it's a more general and accessible way of referring to the actions of activating and deactivating a capability or mode.\n\nOnly use switch on / switch off when there is a need to refer to a switch UI component directly in interface copy. In these rare cases, the action/verb should closely match the component/noun.\n\nThe phrase “switch between modes” is OK to use.",
+    "anchor_id": "switch_on_/_switch_off"
+  },
+  {
+    "term": "tab",
+    "status": "Preferred",
+    "usage_notes": "When referring to a specific tab in an interface, respect the capitalization of the name of the tab as it appears in the UI but don’t capitalize the word “tab.” Bold the name of the tab but not the word tab (e.g., Learn tab, Your Work tab, Apps tab).",
+    "anchor_id": "tab"
+  },
+  {
+    "term": "tap",
+    "status": "Use with caution",
+    "usage_notes": "If at all possible, avoid instructing a user to tap or click. Instead, use a call-to-action and the right design component to imply the interaction. View [select](#select).\n\nWhen referring to the result of tapping on something, use the same word(s) as the call-to-action. There are some instances where using the word tap can't be avoided because of device mechanics, such as selecting points on a tablet.",
+    "anchor_id": "tap"
+  },
+  {
+    "term": "template",
+    "status": "Preferred",
+    "usage_notes": "A template is a document that has been pre-formatted or contains pre-formatted elements so that a user doesn’t have to start from scratch. Use template rather than starter file or other jargon for templates.",
+    "anchor_id": "template"
+  },
+  {
+    "term": "title",
+    "status": "Avoid",
+    "usage_notes": "For field labels, name is the preferred word for a file name or for the name of another kind of entity. Do not use title to mean name.",
+    "anchor_id": "title"
+  },
+  {
+    "term": "to / from the cloud",
+    "status": "Preferred",
+    "usage_notes": "Files are uploaded (or backed up) to the cloud and downloaded from the cloud.\n\nView also [in the cloud](#in the cloud).",
+    "anchor_id": "to_/_from_the_cloud"
+  },
+  {
+    "term": "toggle",
+    "status": "Avoid",
+    "usage_notes": "Jargon used as a verb to describe the action of switching between two modes, or used as a noun to describe the button or switch for going between two modes.\n\nTo make accessible products, do not reference UI elements. If you need to refer to this design element or what it does in your product, write around describing its appearance and instead talk about its function. View [turn on / turn off](#turn on / turn off).",
+    "anchor_id": "toggle"
+  },
+  {
+    "term": "tool",
+    "status": "Preferred",
+    "usage_notes": "When referring to a specific tool in an interface, respect the capitalization of the name of the tool as it appears in the UI but do not capitalize the word tool. Bold the name of the tool but not the word “tool” (e.g., Zoom tool, Pen tool, Undo tool).",
+    "anchor_id": "tool"
+  },
+  {
+    "term": "touch and hold",
+    "status": "Avoid",
+    "usage_notes": "Instructions for interactions should use the same words that the OS does.",
+    "anchor_id": "touch_and_hold"
+  },
+  {
+    "term": "trial",
+    "status": "Avoid",
+    "usage_notes": "See [free trial](#free trial).",
+    "anchor_id": "trial"
+  },
+  {
+    "term": "turn on / turn off",
+    "status": "Preferred",
+    "usage_notes": "Use turn on / turn off to refer to the actions of activating and deactivating a capability or mode.",
+    "anchor_id": "turn_on_/_turn_off"
+  },
+  {
+    "term": "tutorial",
+    "status": "Preferred",
+    "usage_notes": "Can be used to describe a single tutorial, or a series of two or more tutorials.",
+    "anchor_id": "tutorial"
+  },
+  {
+    "term": "update",
+    "status": "Preferred",
+    "usage_notes": "Unlike an upgrade, an update does not usually require payment (e.g., Update your browser, Update your app).",
+    "anchor_id": "update"
+  },
+  {
+    "term": "update",
+    "status": "Preferred",
+    "usage_notes": "Use update (verb) to refer to the act of replacing software with a new version of itself that brings the system up to date or includes improvements. Use update (noun) to refer to the replacement software version.\n\nWhen guiding users through an update flow, be explicit about the different steps involved. For example, don’t use an Update call to action if the user will be redirected to a store or website.",
+    "anchor_id": "update"
+  },
+  {
+    "term": "update later",
+    "status": "Use with caution",
+    "usage_notes": "Use Update later as a call to action when presenting the user with the option to defer updating an app or to have an app update automatically when certain installation criteria (e.g., quitting or restarting) are met. View [update now](#update now).",
+    "anchor_id": "update_later"
+  },
+  {
+    "term": "update now",
+    "status": "Use with caution",
+    "usage_notes": "Use Update now as a call to action only when the user can choose between updating later and taking the necessary steps to begin updating immediately. View [update later](#update later).",
+    "anchor_id": "update_now"
+  },
+  {
+    "term": "upgrade",
+    "status": "Preferred",
+    "usage_notes": "Unlike an update, an upgrade usually requires payment (e.g., Upgrade your plan, Upgrade to the full version of Photoshop).",
+    "anchor_id": "upgrade"
+  },
+  {
+    "term": "video",
+    "status": "Use with caution",
+    "usage_notes": "Use this word sparingly as a lightweight alternative to describe a standalone tutorial, tutorial series, or course (e.g., “Learn Illustrator step by step in our series of short videos”).\n\nVideo is a preferred word to use when talking generically about the type of media (e.g., video and audio, video files, video assets).",
+    "anchor_id": "video"
+  },
+  {
+    "term": "view",
+    "status": "Preferred",
+    "usage_notes": "To be more inclusive, view is preferred over the word see. For example, say View all results instead of See all results.",
+    "anchor_id": "view"
+  },
+  {
+    "term": "watermark, watermarking",
+    "status": "Preferred",
+    "usage_notes": "Use watermark (noun) to refer to a logo, text, or signature that is superimposed onto an asset. Watermarking (verb) is used for identifying the artist behind the asset, copyright protection, preventing unlicensed usage, or marketing.",
+    "anchor_id": "watermark,_watermarking"
+  },
+  {
+    "term": "whitelist",
+    "status": "Avoid",
+    "usage_notes": "This word has roots in racism and oppression. Replace it with this format to provide contextual clarity:\n\n(Action)(object)\n\nFor example:\n\n• Shared domains\n\n• Approved users\n\n• Targeted sites",
+    "anchor_id": "whitelist"
+  },
+  {
+    "term": "wifi",
+    "status": "Preferred",
+    "usage_notes": "All lowercase, no hyphen or space.",
+    "anchor_id": "wifi"
   }
-}
+]
