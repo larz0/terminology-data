@@ -1,7 +1,7 @@
 {
   "version": 2,
   "collection": "default",
-  "lastModified": "2025-09-01T14:15:24.433Z",
+  "lastModified": "2025-09-01T14:20:52.290Z",
   "terms": {
     "this-is-a-new-term": {
       "id": "this-is-a-new-term",
@@ -33,16 +33,6 @@
       "createdBy": "larz0",
       "updatedBy": "larz0"
     },
-    "kljfdlkajfa": {
-      "id": "kljfdlkajfa",
-      "term": "kljfdlkajfa",
-      "status": "Preferred",
-      "usageNotes": "fdafdsa",
-      "createdAt": "2025-09-01T14:14:11.208Z",
-      "updatedAt": "2025-09-01T14:14:11.208Z",
-      "createdBy": "larz0",
-      "updatedBy": "larz0"
-    },
     "dsafads": {
       "id": "dsafads",
       "term": "dsafads",
@@ -60,6 +50,16 @@
       "usageNotes": "fdafsda",
       "createdAt": "2025-09-01T14:15:16.140Z",
       "updatedAt": "2025-09-01T14:15:16.140Z",
+      "createdBy": "larz0",
+      "updatedBy": "larz0"
+    },
+    "this-is-important": {
+      "id": "this-is-important",
+      "term": "this is important",
+      "status": "Preferred",
+      "usageNotes": "fdafda",
+      "createdAt": "2025-09-01T14:20:25.505Z",
+      "updatedAt": "2025-09-01T14:20:25.505Z",
       "createdBy": "larz0",
       "updatedBy": "larz0"
     }
