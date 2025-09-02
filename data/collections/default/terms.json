@@ -567,12 +567,6 @@
     "id": "start",
     "term": "start",
     "status": "Preferred",
-    "usageNotes": "Preferred over begin for calls-to-action. Variations on this call-to-action using the word start are also acceptable (e.g., Start tour)."
-  },
-  {
-    "id": "start",
-    "term": "start",
-    "status": "Preferred",
     "usageNotes": "Use start as an action in reference to a device, process, or workflow."
   },
   {
@@ -699,12 +693,6 @@
     "id": "update",
     "term": "update",
     "status": "Preferred",
-    "usageNotes": "Unlike an upgrade, an update does not usually require payment (e.g., Update your browser, Update your app)."
-  },
-  {
-    "id": "update",
-    "term": "update",
-    "status": "Preferred",
     "usageNotes": "Use update (verb) to refer to the act of replacing software with a new version of itself that brings the system up to date or includes improvements. Use update (noun) to refer to the replacement software version.\n\nWhen guiding users through an update flow, be explicit about the different steps involved. For example, don’t use an Update call to action if the user will be redirected to a store or website."
   },
   {
@@ -754,5 +742,11 @@
     "term": "wifi",
     "status": "Preferred",
     "usageNotes": "All lowercase, no hyphen or space."
+  },
+  {
+    "id": "delete-this",
+    "term": "delete-this",
+    "status": "Use with caution",
+    "usageNotes": "delete-this"
   }
 ]
