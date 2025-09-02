@@ -1,5 +1,23 @@
 [
   {
+    "id": "abba",
+    "term": "abba",
+    "status": "Required",
+    "usageNotes": "abba"
+  },
+  {
+    "id": "abca",
+    "term": "abca",
+    "status": "Use with caution",
+    "usageNotes": "abca"
+  },
+  {
+    "id": "abda",
+    "term": "abda",
+    "status": "Avoid",
+    "usageNotes": "abda"
+  },
+  {
     "id": "add",
     "term": "add",
     "status": "Use with caution",
