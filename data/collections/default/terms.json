@@ -1,5 +1,11 @@
 [
   {
+    "id": "abc",
+    "term": "abc",
+    "status": "Preferred",
+    "usageNotes": "abc"
+  },
+  {
     "id": "add",
     "term": "add",
     "status": "Use with caution",
@@ -567,12 +573,6 @@
     "id": "start",
     "term": "start",
     "status": "Preferred",
-    "usageNotes": "Preferred over begin for calls-to-action. Variations on this call-to-action using the word start are also acceptable (e.g., Start tour)."
-  },
-  {
-    "id": "start",
-    "term": "start",
-    "status": "Preferred",
     "usageNotes": "Use start as an action in reference to a device, process, or workflow."
   },
   {
@@ -694,12 +694,6 @@
     "term": "tutorial",
     "status": "Preferred",
     "usageNotes": "Can be used to describe a single tutorial, or a series of two or more tutorials."
-  },
-  {
-    "id": "update",
-    "term": "update",
-    "status": "Preferred",
-    "usageNotes": "Unlike an upgrade, an update does not usually require payment (e.g., Update your browser, Update your app)."
   },
   {
     "id": "update",
