@@ -742,11 +742,5 @@
     "term": "wifi",
     "status": "Preferred",
     "usageNotes": "All lowercase, no hyphen or space."
-  },
-  {
-    "id": "delete-this",
-    "term": "delete-this",
-    "status": "Use with caution",
-    "usageNotes": "delete-this"
   }
 ]
