@@ -24,6 +24,12 @@
     "usageNotes": "App is preferred over application for the sake of brevity, simplicity, and because app is so widely used now to describe both desktop and mobile software applications."
   },
   {
+    "id": "ass",
+    "term": "ass",
+    "status": "Preferred",
+    "usageNotes": "ass"
+  },
+  {
     "id": "asset",
     "term": "asset",
     "status": "Use with caution",
