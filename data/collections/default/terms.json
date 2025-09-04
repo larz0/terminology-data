@@ -1,7 +1,7 @@
 [
   {
     "id": "add",
-    "term": "add",
+    "term": "add please",
     "status": "Use with caution",
     "usageNotes": "In Creative Cloud products, to add is to bring already existing assets into a certain browser or view. In Experience Cloud products, this word is reserved for images.\n\nFor example:\n\n• Add PNG\n\n• Add images, fonts, styles, and more to a library to keep what you need nearby.\n\nAvoid using the word add for the action of inviting people to a document or other shareable resource."
   },
@@ -567,12 +567,6 @@
     "id": "start",
     "term": "start",
     "status": "Preferred",
-    "usageNotes": "Preferred over begin for calls-to-action. Variations on this call-to-action using the word start are also acceptable (e.g., Start tour)."
-  },
-  {
-    "id": "start",
-    "term": "start",
-    "status": "Preferred",
     "usageNotes": "Use start as an action in reference to a device, process, or workflow."
   },
   {
@@ -694,12 +688,6 @@
     "term": "tutorial",
     "status": "Preferred",
     "usageNotes": "Can be used to describe a single tutorial, or a series of two or more tutorials."
-  },
-  {
-    "id": "update",
-    "term": "update",
-    "status": "Preferred",
-    "usageNotes": "Unlike an upgrade, an update does not usually require payment (e.g., Update your browser, Update your app)."
   },
   {
     "id": "update",
