@@ -60,6 +60,12 @@
     "usageNotes": "When referring to a specific button in an interface, try to refer to the action (e.g, undo, edit) rather than naming the button.\n\nIf you need to refer to the interface element directly, capitalize and bold the name of the button but not the word button itself (e.g., Undo button, Edit button)."
   },
   {
+    "id": "abc",
+    "term": "cat",
+    "status": "Preferred",
+    "usageNotes": "cat"
+  },
+  {
     "id": "click",
     "term": "click",
     "status": "Avoid",
