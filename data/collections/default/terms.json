@@ -1,21 +1,9 @@
 [
   {
-    "id": "10-392",
-    "term": "10-392",
-    "status": "Preferred",
-    "usageNotes": "fdas"
-  },
-  {
     "id": "1010-delete",
     "term": "1010-delete",
     "status": "Preferred",
     "usageNotes": "delete"
-  },
-  {
-    "id": "1093028",
-    "term": "1093028",
-    "status": "Preferred",
-    "usageNotes": "test"
   },
   {
     "id": "add",
