@@ -1,5 +1,11 @@
 [
   {
+    "id": "01-buba",
+    "term": "01-buba",
+    "status": "Preferred",
+    "usageNotes": "buba"
+  },
+  {
     "id": "10-baba",
     "term": "10-baba",
     "status": "Use with caution",
