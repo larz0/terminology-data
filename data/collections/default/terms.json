@@ -1,13 +1,19 @@
 [
   {
-    "id": "10-baba",
-    "term": "10-baba",
-    "status": "Use with caution",
-    "usageNotes": "caution"
+    "id": "10-392",
+    "term": "10-392",
+    "status": "Preferred",
+    "usageNotes": "fdas"
+  },
+  {
+    "id": "1010-delete",
+    "term": "1010-delete",
+    "status": "Preferred",
+    "usageNotes": "delete"
   },
   {
     "id": "add",
-    "term": "add please",
+    "term": "add",
     "status": "Use with caution",
     "usageNotes": "In Creative Cloud products, to add is to bring already existing assets into a certain browser or view. In Experience Cloud products, this word is reserved for images.\n\nFor example:\n\n• Add PNG\n\n• Add images, fonts, styles, and more to a library to keep what you need nearby.\n\nAvoid using the word add for the action of inviting people to a document or other shareable resource."
   },
